@@ -1,0 +1,121 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #f8f9fa; /* Color de fondo del encabezado */
+    padding: 1em 0; /* Espacio interno en la parte superior e inferior */
+    text-align: center; /* Centra el contenido del encabezado */
+    position: relative; /* Permite posicionar elementos dentro del encabezado */
+}
+
+/* Estilos del menú de navegación */
+.navegacion {
+    position: absolute; /* Posiciona el menú sobre la imagen */
+    top: 0;
+    width: 100%;
+    background-color: rgba(248, 249, 250, 0.8); /* Fondo semitransparente para el menú */
+    padding: 10px 0;
+    z-index: 1; /* Asegura que el menú esté por encima de la imagen */
+}
+
+.menu {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el padding */
+    display: flex; /* Usa Flexbox para alinear los elementos del menú horizontalmente */
+    justify-content: center; /* Centra el menú horizontalmente */
+}
+
+.menu li {
+    margin: 0 15px; /* Espacio horizontal entre los elementos del menú */
+}
+
+.menu a {
+    color: #007bff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 16px; /* Tamaño de fuente de los enlaces */
+    padding: 8px 12px; /* Espacio interno de los enlaces */
+    border-radius: 4px; /* Bordes redondeados de los enlaces */
+    transition: background-color 0.3s; /* Transición para el cambio de color de fondo */
+}
+
+.menu a:hover {
+    background-color: #e2e6ea; /* Color de fondo del enlace al pasar el cursor */
+}
+
+/* Estilos de la imagen del banner */
+.imagen-banner {
+    max-width: 800px; /* Ancho máximo de la imagen */
+    min-width: 300px; /* Ancho mínimo de la imagen */
+    width: 100%; /* Ancho completo del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+    margin: 20px auto; /* Centra la imagen horizontalmente y agrega margen superior e inferior */
+    padding: 10px; /* Agrega un espacio alrededor de la imagen */
+}
+
+/* Estilos generales del formulario */
+.formulario-registro {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Espacio interno del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+/* Estilos de los encabezados del formulario */
+.formulario-registro h2 {
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos de las etiquetas del formulario */
+.formulario-registro label {
+    display: block; /* Hace que las etiquetas ocupen toda la línea */
+    margin-bottom: 8px; /* Espacio debajo de las etiquetas */
+    color: #666; /* Color del texto */
+}
+
+/* Estilos de los campos de entrada del formulario */
+.formulario-registro input[type="text"],
+.formulario-registro input[type="email"],
+.formulario-registro input[type="password"] {
+    width: 100%; /* Ocupa todo el ancho del formulario */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 16px; /* Espacio debajo de cada campo */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+/* Estilos del botón de envío del formulario */
+.formulario-registro button {
+    width: 100%; /* Ocupa todo el ancho del formulario */
+    padding: 10px; /* Espacio interno */
+    background-color: #007bff; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Muestra el cursor como una mano */
+    transition: background-color 0.3s; /* Transición para el cambio de color */
+}
+
+/* Estilos del botón al pasar el cursor */
+.formulario-registro button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #f8f9fa; /* Color de fondo del pie de página */
+    padding: 1em; /* Espacio interno del pie de página */
+    text-align: center; /* Centra el texto */
+}
